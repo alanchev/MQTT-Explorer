@@ -1,21 +1,6 @@
 # [MQTT Explorer](https://mqtt-explorer.com)
 
-[![Downloads](https://img.shields.io/github/release/thomasnordquist/mqtt-explorer.svg)](https://travis-ci.org/thomasnordquist/MQTT-Explorer/releases)
-[![Downloads](https://img.shields.io/github/downloads/thomasnordquist/mqtt-explorer/total.svg)](https://travis-ci.org/thomasnordquist/MQTT-Explorer/releases)
-[![Build_Status](https://travis-ci.org/thomasnordquist/MQTT-Explorer.svg?branch=master)](https://travis-ci.org/thomasnordquist/MQTT-Explorer)
-[![Build status](https://ci.appveyor.com/api/projects/status/c35tkm29rm4m5364/branch/master?svg=true)](https://ci.appveyor.com/project/thomasnordquist/mqtt-explorer/branch/master)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/47b26e03fce543ceac7914214482334a)](https://app.codacy.com/app/thomasnordquist/MQTT-Explorer?utm_source=github.com&utm_medium=referral&utm_content=thomasnordquist/MQTT-Explorer&utm_campaign=Badge_Grade_Dashboard)
-
-|   |   |   |
-|:---:|:---:|:---:|
-|[![screen_composite](https://mqtt-explorer.com/img/screen-composite_small.png)](https://mqtt-explorer.com/img/screen-composite.png)|[![screen2_small](https://mqtt-explorer.com/img/screen2_small.png)](https://mqtt-explorer.com/img/screen2.png)|[![screen3_small](https://mqtt-explorer.com/img/screen3_small.png)](https://mqtt-explorer.com/img/screen3.png)|
-
-# The App has moved to [mqtt-explorer.com](https://mqtt-explorer.com)
-MQTT Explorer is a comprehensive and easy-to-use MQTT Client.  
-Downloads can be found at the link above.
-
-This page is dedicated to its development.
-Pull-Requests and error reports are welcome.
+> ### This fork merely adds Dependabot's security patches. For anything else, refer to [the original repository by Thomas Nordquist](https://github.com/thomasnordquist/MQTT-Explorer).
 
 ## Run from sources
 
@@ -62,29 +47,7 @@ Compile and execute tests
 npm run build
 node dist/src/spec/webdriverio.js
 ```
-
-## Write docs
-
-```
-git clone --single-branch -b gh-pages https://github.com/thomasnordquist/MQTT-Explorer.git mqtt-explorer-pages
-cd mqtt-explorer-pages
-bundle install
-bundle exec jekyll serve --incremental
-```
-
-Readme file: `Readme.tpl.md`
-
-Preview is available at
-http://localhost:4000/Readme.tpl
-
-## Update docs
-
-```
-npm install
-./updateReadme.ts
-```
-
-The readme will be generated from the docs.
+> Note: [additional options on how to build this app as a win32 executable](https://stackoverflow.com/a/40615892).
 
 ## License
 
